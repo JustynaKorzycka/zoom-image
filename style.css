@@ -1,0 +1,17 @@
+.container {
+  padding: 50px 10px;
+}
+
+.page-title {
+  text-align: center;
+}
+
+.products-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px
+}
+
+.card img::after {
+  content
+}
