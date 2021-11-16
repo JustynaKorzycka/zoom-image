@@ -1,5 +1,6 @@
 .container {
   padding: 50px 10px;
+  max-width: 900px;
 }
 
 .page-title {
@@ -12,6 +13,28 @@
   gap: 30px
 }
 
-.card img::after {
-  content
+.card-img-top {
+  flex-basis: 250px;
+  overflow: hidden;
+}
+
+.box-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 100%;
+  cursor: zoom-in;
+  transition: .2s;
+}
+
+
+.zoom {
+  cursor: zoom-out;
+  transform: scale(2);
+}
+
+.card-text span {
+  display: block;
+  text-align: center;
 }
