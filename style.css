@@ -21,7 +21,7 @@
 .box-image {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 0px 0px;
   width: 100%;
   height: 100%;
   cursor: zoom-in;
